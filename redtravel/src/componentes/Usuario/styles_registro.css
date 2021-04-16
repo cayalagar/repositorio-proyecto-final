@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-registro{
+    border-radius: 25px;
+    background-color:rgb(252, 252, 252);
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.txt_reg_usuario{
+    width: 250px;
+    height: 30px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: rgb(196, 196, 196);
+}
+
+.btm_registro{
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    background-color:  rgb(204, 41, 38);
+    color: rgb(243, 236, 236);
+}
