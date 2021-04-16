@@ -1,0 +1,64 @@
+.container-footer {
+    background-color: rgba(29, 29, 29, 1);
+    /*height: 241px;*/
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+.container-nosotros {
+    width: 30%;
+    padding: 0px;
+    font-size: 18px;
+    text-align: justify;
+}
+.container-nosotros h3 {
+    text-align: center;
+}
+
+
+
+.container-redes {
+    width: 26%;
+    padding-inline: 50px;
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+}
+.container-redes a img{
+height: 40px;
+width: 40px;
+padding: 10px;
+margin-inline: 30px;
+margin-bottom: 10px;
+border: 3px solid rgba(204, 41, 38, 1);
+background-color: rgba(204, 41, 38, 0.507);
+border-radius: 100px 100px 100px;
+}
+
+
+
+.container-metodos-de-pago {
+    width: 26%;
+    padding-inline: 50px;
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+}
+.container-metodos-de-pago a img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-inline: 30px;
+    margin-bottom: 10px;
+    border: 3px solid rgba(204, 41, 38, 0.144);
+    background-color: rgba(204, 41, 38, 0.048);
+    border-radius: 100px 100px 100px;
+}
