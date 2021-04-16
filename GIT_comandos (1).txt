@@ -1,0 +1,43 @@
+---clonar repositorio
+git clone https://..............
+
+---iniciar git
+git init 
+
+-------unirte a una rama
+git checkout nombre_rama
+
+---uniser a rama remota 
+git checkout -b nombra_rama 
+
+----traer datos de una rama
+git pull origin nombre_rama
+
+----ver cambios realizados
+git status
+
+----agregar todos los cambios
+git add .
+
+-----realizar commit
+git commit -m "nombre_rama comentarios"
+
+---publicar commit
+git push origin #rama
+
+******************************************************
+1- verifico mi mi rama -- 
+	git branch
+
+* git checkout nombre_rama
+
+2- git pull origin develop
+-- Bajo cambios
+3- git push origin develop-carlos
+-- realizo cambios
+****
+git status
+git add . => coje lon
+git commit -m =->"nombre_rama comentarios"
+git status
+git push origin develop-carlos
