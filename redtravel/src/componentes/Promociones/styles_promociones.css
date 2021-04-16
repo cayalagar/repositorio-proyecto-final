@@ -1,6 +1,6 @@
 .container-promociones-contenido {
     text-align: center;
-    display: flex;
+    display:flex ;
     flex-direction: row;
     justify-content: space-between;
     margin: 50px;
@@ -9,8 +9,7 @@
 text-decoration: none;
 color: black;
 }
-.container-promociones-titulo h1 {
-    display: block;
+.container-promociones-titulo {
     text-align: center;
     color:rgba(0, 0, 0, 0.75)
 }
@@ -27,15 +26,20 @@ height: 50%;
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
     margin-inline: 5px;
+    width: 500px;
+    display: block;
 }
 .container-promocion2 {
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
     margin-inline: 5px;
-
+    width: 500px;
+    display: block;
 }
 .container-promocion3 {
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
     margin-inline: 5px;
+    width: 500px;
+    display: block;
 }
