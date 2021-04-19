@@ -1,9 +1,9 @@
 .container-promociones-contenido {
     text-align: center;
     display:flex ;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2000px;
 }
 .container-promociones-contenido a {
 text-decoration: none;
@@ -25,21 +25,27 @@ height: 50%;
 .container-promocion1 {
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
-    margin-inline: 5px;
+    margin: 10px;
+    margin-bottom: 30px;
     width: 500px;
+    height: 50%;
     display: block;
 }
 .container-promocion2 {
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
-    margin-inline: 5px;
+    margin: 10px;
+    margin-bottom: 30px;
     width: 500px;
+    height: 50%;
     display: block;
 }
 .container-promocion3 {
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
-    margin-inline: 5px;
+    margin: 10px;
+    margin-bottom: 30px;
     width: 500px;
+    height: 50%;
     display: block;
 }

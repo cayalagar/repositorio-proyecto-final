@@ -6,16 +6,17 @@
     padding-bottom: 0;
     text-align: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2000px;
 }
 
 
 
 
 .container-nosotros {
-    width: 30%;
-    padding: 0px;
+    width: 650px;
+    padding-inline: 5%;
     font-size: 18px;
     text-align: justify;
 }
@@ -26,10 +27,9 @@
 
 
 .container-redes {
-    width: 26%;
-    padding-inline: 50px;
+    width: 400px;
+    margin: 2%;
     font-size: 18px;
-    text-align: justify;
     text-align: center;
 }
 .container-redes a img{
@@ -46,10 +46,8 @@ border-radius: 100px 100px 100px;
 
 
 .container-metodos-de-pago {
-    width: 26%;
-    padding-inline: 50px;
-    font-size: 18px;
-    text-align: justify;
+    width: 400px;
+    margin: 2%;
     text-align: center;
 }
 .container-metodos-de-pago a img {
