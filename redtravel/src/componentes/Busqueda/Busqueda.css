@@ -1,0 +1,30 @@
+#donde{
+    font-size: 60px;
+}
+.bg-image{
+    border: 2px solid red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./../../assets/images/catedral.jpg");
+    background-position: center;
+    position: relative;
+    height: 600px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.saludo{
+    color: white;
+    border: 5px solid blue;
+    border-radius: 30px;
+    text-align: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.432);
+    margin-bottom:20px;
+    padding: 20px;
+    
+
+}
