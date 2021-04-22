@@ -3,53 +3,73 @@
   background-color: rgb(236, 236, 236);
   display: flex;
   text-align: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 2000px;
+  padding-inline: 0;
+}
+.container-subprincipal{
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
 }
 .container-recomendacion {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  padding: 1%;
 }
 .container-recomendacion-contenido {
-  color: aliceblue;
-  display: flexbox;
-  flex-wrap: wrap;
+  color: white;
   padding: 0;
   margin: 0;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.container-recomendacion-contenido p .descripcion {
+.descripcion {
   font-size: 20px;
-  padding: 2%;
-  min-width: 300px;
-  max-width: 100%;
   color: rgb(255, 255, 255);
-  text-align: justify;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
-.container-recomendacion-contenido h2 .ciudad {
-  font-size: 20px;
-  padding: 2%;
-  min-width: 300px;
-  max-width: 100%;
+.ciudad {
+  font-size: 40px;
   color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
 }
-.container-recomendacion-contenido {
-  max-width: 500px;
-  width: 50%;
+.container-recomendacion-imagen {
   display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 .container-recomendacion-imagen img {
   width: 450px;
   height: 600px;
-
-}
-.container-recomendacion-imagen {
   display: flex;
+  flex-wrap: wrap;
 }
+
+.container-recomendacion-imagen img:hover {
+transform: scale(1.1);
+transition: all 1s ease-in-out;
+}
+
 
 .container-recomendacion-boton {
   text-align: center;
-  bottom: 200px;
+  bottom: 250px;
+
+}
+.container-contenido-boton {
+  text-align: center;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 470px;
+  width: 450px;
 }
 .container-recomendacion-boton button {
   text-align: center;
@@ -60,11 +80,17 @@
   border: none;
   font-size: 40px;
 }
-.container-contenido-boton {
-  text-align: center;
-  display: flex;    
-  flex-wrap: wrap;
-  max-width: 400px;
-  position: absolute;
-
+@media only screen and (max-width:400px) {
+  .container-recomendacion-imagen img{
+    width: 100%;
+    height: auto;
+  }
+  .container-contenido-boton {
+    margin-top: 75%;
+    width: 88%;
+  }
+  .container-recomendacion-boton button{
+    width: 95%;
+    height: 75px;
+  }
 }
