@@ -5,14 +5,17 @@ import Login from "./componentes/Login/login";
 import Registro from "./componentes/Usuario/Registro";
 import Footer from "./componentes/Footer/footer"
 import Promociones from "./componentes/Promociones/promociones"
+import Recomendaciones from "./componentes/Recomendaciones/recomendaciones"
 
-const App = () => {
+function App () {
+
   return (
     <div>
       <Header />
       <Login />
       <Registro />
       <Promociones/>
+      <Recomendaciones/>
       <Footer/>
     </div>
   );

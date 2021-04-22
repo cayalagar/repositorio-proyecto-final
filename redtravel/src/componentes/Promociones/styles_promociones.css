@@ -1,9 +1,8 @@
 .container-promociones-contenido {
     text-align: center;
-    display:flex ;
+    display:inline-block ;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 2000px;
 }
 .container-promociones-contenido a {
 text-decoration: none;
@@ -19,33 +18,22 @@ color: black;
     }
 .container-promociones-contenido img {
 width: 100%;
-height: 50%;
+height: 300px;
 }
 
-.container-promocion1 {
+.container-promocion {
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(201, 201, 201, 1);
     margin: 10px;
     margin-bottom: 30px;
-    width: 500px;
-    height: 50%;
-    display: block;
+    max-width: 500px;
+    height: 570px;
+    display: flex;
+
 }
-.container-promocion2 {
-    background: rgba(251, 251, 251, 1);
-    border: 1px solid rgba(201, 201, 201, 1);
-    margin: 10px;
-    margin-bottom: 30px;
-    width: 500px;
-    height: 50%;
-    display: block;
-}
-.container-promocion3 {
-    background: rgba(251, 251, 251, 1);
-    border: 1px solid rgba(201, 201, 201, 1);
-    margin: 10px;
-    margin-bottom: 30px;
-    width: 500px;
-    height: 50%;
-    display: block;
+.container-promocion:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.514);
+    transform: scale(1.03);
+    overflow: hidden;
+    transition: all 0.5 s ease-in-out;
 }

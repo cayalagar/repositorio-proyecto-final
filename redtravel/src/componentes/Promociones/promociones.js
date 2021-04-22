@@ -1,64 +1,52 @@
 import React from "react";
-import imgProm from "../../assets/imagenes/promociones.jpg";
+import imgProm1 from "../../assets/imagenes/promociones1.jpg";
+import imgProm2 from "../../assets/imagenes/promociones2.jpg";
 import "./styles_promociones.css";
 
-const Promociones = () => {
+const Promo = [
+{
+    "titulo": "Promocion Generica",
+    "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente",
+    "imagen": imgProm1,
+    "id":1
+},
+{
+    "titulo": "Promocion Generica",
+    "body": "Promoción es la acción de promocionar una persona, cosa, servicio, etc. Tiene como objetivo promover y divulgar productos, servicios, bienes o ideas, para dar a conocer y persuadir al público de realizar un acto de consumo.",
+    "imagen":imgProm2,
+    "id":2
+},
+{
+    "titulo": "Promocion Generica",
+    "body": "La promoción se hace con el fin de impulsar el producto, sin embargo, dependiendo del tiempo en el que esta se haga el impacto que recibe el consumidor varia, veamos el siguiente escenario: Cuando un producto recién entra en el mercado es necesario recurrir a la publicidad de este, de una manera agradable, haciendo énfasis en las características nuevas y el logotipo de marca, se comienza con la oferta de este",
+    "imagen":imgProm1,
+    "id":3
+}
+]
+
+function Promociones({titulo,body,imagen}) {
+  
   return (
     <div className="container-promociones-titulo">
       <h1>¡No te lo puedes perder!</h1>
-      <div className="container-promociones-contenido">
-        <div className="container-promocion1">
-          <a href="#">
-            <img src={imgProm} className="promocion1" />
-            <h2>Promocion Generica</h2>
-            <p>
-              En la fase de lanzamiento nos ayuda a comunicar y dar a conocer
-              aquello que queremos vender y nos permite hacer hincapié en la
-              novedad, la diferencia o un precio especial de lanzamiento. En la
-              fase de lanzamiento nos ayuda a comunicar y dar a conocer aquello
-              que queremos vender y nos permite hacer hincapié en la novedad, la
-              diferencia o un precio especial de lanzamiento. En la fase de
-              lanzamiento nos ayuda a comunicar y dar a conocer aquello que
-              queremos vender y nos permite hacer hincapié en la novedad, la
-              diferencia o un precio especial de lanzamiento.
-            </p>
-          </a>
-        </div>
-        <div className="container-promocion2">
-          <a href="#">
-            <img src={imgProm} className="promocion2" />
-            <h2>Promocion Generica</h2>
-            <p>
-              En la fase de lanzamiento nos ayuda a comunicar y dar a conocer
-              aquello que queremos vender y nos permite hacer hincapié en la
-              novedad, la diferencia o un precio especial de lanzamiento. En la
-              fase de lanzamiento nos ayuda a comunicar y dar a conocer aquello
-              que queremos vender y nos permite hacer hincapié en la novedad, la
-              diferencia o un precio especial de lanzamiento. En la fase de
-              lanzamiento nos ayuda a comunicar y dar a conocer aquello que
-              queremos vender y nos permite hacer hincapié en la novedad, la
-              diferencia o un precio especial de lanzamiento.
-            </p>
-          </a>
-        </div>
-        <div className="container-promocion3">
-          <a href="#">
-            <img src={imgProm} className="promocion3" />
-            <h2>Promocion Generica</h2>
-            <p>
-              En la fase de lanzamiento nos ayuda a comunicar y dar a conocer
-              aquello que queremos vender y nos permite hacer hincapié en la
-              novedad, la diferencia o un precio especial de lanzamiento. En la
-              fase de lanzamiento nos ayuda a comunicar y dar a conocer aquello
-              que queremos vender y nos permite hacer hincapié en la novedad, la
-              diferencia o un precio especial de lanzamiento. En la fase de
-              lanzamiento nos ayuda a comunicar y dar a conocer aquello que
-              queremos vender y nos permite hacer hincapié en la novedad, la
-              diferencia o un precio especial de lanzamiento.
-            </p>
-          </a>
-        </div>
+
+
+      {
+      Promo.map(Promo => (<div className="container-promociones-contenido" key={Promo.id}>
+      <div className="container-promocion" >
+        <a href="#">
+          <img src={Promo.imagen} className="promocion" />
+          <h2>{Promo.titulo}</h2>
+          <p>
+            {Promo.body}
+          </p>
+        </a>
       </div>
+    </div>))
+      }
+
+
+
     </div>
   );
 };

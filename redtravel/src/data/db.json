@@ -1,0 +1,22 @@
+{
+    "promocionesjson": [
+        {
+            "titulo": "Promocion Generica",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente, voluptatem error",
+            "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
+            "id":1
+        },
+        {
+            "titulo": "Promocion Generica",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente, voluptatem error",
+            "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
+            "id":2
+        },
+        {
+            "titulo": "Promocion Generica",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente, voluptatem error",
+            "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
+            "id":3
+        }
+    ]
+}
