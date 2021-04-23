@@ -8,7 +8,7 @@
 }
 
 .imgLogo  {
-    width: 50px;
+    width: 100px;
     height: 50px;
     margin-left: 25px;
 }
@@ -23,3 +23,18 @@
     float:right;
     margin-right: 25px;
 }
+
+.Contenedor-navBar{
+    height: 30px;
+    color: white;
+    background: linear-gradient(to bottom,rgb(204, 41, 38), black);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+  }
+ /*  center: [-77.0311,-12.0453],*/

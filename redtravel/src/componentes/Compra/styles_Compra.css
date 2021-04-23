@@ -1,0 +1,41 @@
+.contenedor-compra{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid green;
+}
+
+.contenedor-mapa{
+    width: 400px;
+    height: 300px;
+    border: hotpink solid;
+}
+
+.contenedor-destino{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-destino-det{
+    border: red solid ;
+    text-align:left;
+}
+.contenedor-destino-det-titulo{
+    color: rgb(204, 41, 38);;
+}
+
+.contenedor-destino-form{
+    text-align:left;
+    padding-top: 20px;
+}
+
+.fromCompra{
+    display: flex;
+    flex-direction:row; 
+}
