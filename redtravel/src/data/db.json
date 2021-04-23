@@ -18,5 +18,43 @@
             "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
             "id":3
         }
+    ],
+    "recomendacionesjson":[
+        {
+            "titulo": "Cusco",
+            "body": "El Templo",
+            "imagen": "../assets/imagenes/cusco.jpg",
+            "id":1
+        },
+        {
+            "titulo": "Arequipa",
+            "body": "La Plaza de Armas",
+            "imagen":"../assets/imagenes/arequipa.jpg",
+            "id":2
+        },
+        {
+            "titulo": "Ica",
+            "body": "La Huacachina",
+            "imagen":"../assets/imagenes/ica.jpg",
+            "id":3
+        },
+        {
+            "titulo": "Puno",
+            "body": "El Lago Titi Caca",
+            "imagen":"../assets/imagenes/puno.jpg",
+            "id":4
+        },
+        {
+            "titulo": "Tacna",
+            "body": "El Portal",
+            "imagen":"../assets/imagenes/tacna.jpg",
+            "id":5
+        },
+        {
+            "titulo": "Trujillo",
+            "body": "El Monumento",
+            "imagen":"../assets/imagenes/trujillo.jpg",
+            "id":5
+        }
     ]
 }

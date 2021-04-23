@@ -15,10 +15,20 @@ const Footer = () => {
         <h3>Redes Sociales</h3>
         <a href="#">
           <img src={img3} className="imgredes" />
+        </a>
+        <a href="#">
           <img src={img4} className="imgredes" />
+        </a>
+        <a href="#">
           <img src={img3} className="imgredes" />
+        </a>
+        <a href="#">
           <img src={img4} className="imgredes" />
+        </a>
+        <a href="#">
           <img src={img3} className="imgredes" />
+        </a>
+        <a href="#">
           <img src={img4} className="imgredes" />
         </a>
       </div>

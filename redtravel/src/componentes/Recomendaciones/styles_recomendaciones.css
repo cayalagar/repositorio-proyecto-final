@@ -18,8 +18,11 @@
 }
 .container-recomendacion {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding: 1%;
+  text-align: center;
+  justify-content: center;
 }
 .container-recomendacion-contenido {
   color: white;
@@ -44,7 +47,7 @@
 .container-recomendacion-imagen {
   display: flex;
   overflow: hidden;
-  flex-wrap: wrap;
+  flex-wrap: wrap;margin: 1%;
 }
 .container-recomendacion-imagen img {
   width: 450px;
@@ -68,7 +71,7 @@ transition: all 1s ease-in-out;
   text-align: center;
   flex-wrap: wrap;
   position: absolute;
-  margin-top: 470px;
+  margin-top: 475px;
   width: 450px;
 }
 .container-recomendacion-boton button {
@@ -76,7 +79,7 @@ transition: all 1s ease-in-out;
   color: white;
   background-color: rgb(255, 199, 56);
   width: 300px;
-  height: 100px;
+  height: 80px;
   border: none;
   font-size: 40px;
 }
