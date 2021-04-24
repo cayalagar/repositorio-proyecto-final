@@ -7,6 +7,8 @@
 .container-promociones-contenido a {
 text-decoration: none;
 color: black;
+margin: 0;
+height: fit-content;
 }
 .container-promociones-titulo {
     text-align: center;
