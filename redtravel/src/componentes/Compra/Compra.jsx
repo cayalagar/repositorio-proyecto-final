@@ -1,12 +1,23 @@
 import React from "react";
+import MapCompra from "../CompraMap/CompraMap.jsx"
+
+import logoVisa from "../../assets/imagenes/medios_de_pago/visa.png"
+import logoPayPal from "../../assets/imagenes/medios_de_pago/paypal.png"
+import logoPagEfe from "../../assets/imagenes/medios_de_pago/pago-efectivo.svg"
+
 import "./styles_Compra.css";
+
+const mapURL=`https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDWrY6R5VcAbKfY6sYRU2WhQuD1wEWq_ZQ`
 
 const Compra = () => {
   return (
     <div className="contenedor-compra">
-        <div className="contenedor-mapa">
-            <iframe src="https://www.google.com/maps/dir/Plaza+de+Armas+de+Lima,+Cercado+de+Lima/Arequipa,+Per%C3%BA,+310878,+Per%C3%BA+51,+Arequipa/@-14.3337479,-76.5353376,7z/data=!4m14!4m13!1m5!1m1!1s0x9105c8b5d5aa7eb1:0x16061e0b481e22aa!2m2!1d-77.0305458!2d-12.0460038!1m5!1m1!1s0x914249c0f2322f7d:0xbca16941f3445afe!2m2!1d-71.5505316!2d-16.334401!3e0" frameborder="0"></iframe>
-        </div>
+            <MapCompra 
+                googleMapURL={mapURL}
+                containerElement={<div className="contenedor-mapa" />}
+                mapElement={<div style={{height:'100%'}}  />} 
+                loadingElement={<p>Cargando</p>}
+            />
         <div className="contenedor-destino">
             <div className="contenedor-destino-det">
                 <h1 className="contenedor-destino-det-titulo">LIMA - AREQUIPA</h1>
@@ -17,14 +28,32 @@ const Compra = () => {
                 N° de Asiento: -- <br />
             </div>
             <div className="contenedor-destino-form">
-                <form className="fromCompra">
-                    <label>Seleccione tipo de servicio:</label>
-                    <input type="radio" name="tipServicio" value="Standar" /> Standar 
-                    <input type="radio" name="tipServicio" value="VIP" /> VIP <br></br>
-                     <label>Cantidad de asientos:</label> <br />
-                    <input type="NUMBER" min="1" max="10" value="1" />
-                    <button type="submit" value="Submit">Comprar</button>
-                </form>
+                <div class="wrap">
+                    <form class="fromCompra">
+                        <label>Seleccione tipo de servicio:</label>
+                        <div class="radio">             
+                            <input type="radio" name="tipoBoleto" id="standar" />
+                            <label for="standar">Standar</label>
+                            <input type="radio" name="tipoBoleto" id="vip" />
+                            <label for="vip">VIP</label> <br />
+                        </div>
+                        <label name="costoBoleto"> Costo del Boleto: </label>
+                        <input type="text"  name="costoBoleto"/> <br />
+                        <label>Cantidad de asientos:</label>
+                        <input type="NUMBER" min="1" max="10" value="1" /> <br />
+                        <label name="costoTotal"> Costo del Boleto: </label>
+                        <input type="text"  name="costoTotal"/> <br />
+                        <div className="contenedor-bottom">
+                            <button className="botom-compra" type="submit" value="Submit">Comprar</button>
+                        </div>
+                    </form>
+                </div>                   
+                    <div className="contendor-img-mp">
+                            <img src={logoPagEfe} className="imgMP" />
+                            <img src={logoPayPal} className="imgMP" />
+                            <img src={logoVisa} className="imgMP" />
+                    </div>
+
             </div>            
         </div>
     </div>

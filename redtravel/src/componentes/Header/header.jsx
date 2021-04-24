@@ -21,11 +21,11 @@ const Header = () => {
         </div>  
         <div className="Contenedor-navBar">
         <nav>
-          <a href="/">Pasajes</a>
-          <a href="/envios">Envios</a>
-          <a href="/alojamiento">Alojamiento</a>
-          <a href="/paquetes">Paquetes</a>
-          <a href="/registro">Registrate</a>
+          <a className="itemMenu" href="/">Pasajes</a>
+          <a className="itemMenu" href="/envios">Envios</a>
+          <a className="itemMenu" href="/alojamiento">Alojamiento</a>
+          <a className="itemMenu" href="/paquetes">Paquetes</a>
+          <a className="itemMenu" href="/registro">Registrate</a>
         </nav>
     </div>
     </div>
