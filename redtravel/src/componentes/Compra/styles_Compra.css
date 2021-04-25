@@ -1,6 +1,6 @@
 .contenedor-compra{
     display: flex;
-    flex-direction:row; 
+    flex-direction:column; 
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -8,17 +8,23 @@
     padding-right: 50px;
 }
 
+.contenedor-compra-det{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .contenedor-mapa{
-    width: 600px;
+    width: 800px;
     height: 400px;
 }
 
 .contenedor-destino{
     display: flex;
     flex-direction: column;
-    width:400px;
+    width:250px;
     height: 400px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .contenedor-destino-det{
@@ -27,23 +33,43 @@
 }
 .contenedor-destino-det-titulo{
     color: rgb(204, 41, 38);
+    margin: 0px;
+    text-align: center;
 }
 
 .contenedor-destino-form{
     text-align:left;
-    padding-top: 10px;
 }
 
 .fromCompra{
     text-align:left;
 }
 
+.contenedor-destino-form-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-destino-form-div-text{
+  padding-top: 10px;
+  text-align: left;
+}
+
+.txtcompra{
+  height: 20px;
+  width: 100px;
+  border:none;
+  border-bottom:rgb(204, 41, 38) solid;
+  outline: none;
+  font-size: 20px;
+  float: right;
+}
+
 .contenedor-bottom{
+    border: 0px;
     padding-top: 10px;
     display: flex;
     justify-content: center;
-    text-align: center;
-    align-items: center;
 }
 
 .botom-compra{
@@ -51,7 +77,8 @@
     background-color:  rgb(204, 41, 38);
     color: rgb(243, 236, 236);
     width: 200px;
-    height:50px;   
+    height:50px;
+    font-size: 30px;   
 }
 
 .contendor-img-mp{
@@ -64,74 +91,78 @@
     width: 80px;
     height:40px;   
 }
+/****************/
+.Contendor-tab{
+  display: flex;
+  flex-direction:column; 
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.contenedor_asientos{
+  display: flex;
+  flex-direction:column; 
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 
 /***************/
-a {
-    color:rgb(204, 41, 38); }
-  
-.wrap {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto; }
+.fromCompra a {
+  color:rgb(204, 41, 38); 
+}
 
-    .fromCompra {
-        /* --------------------------------------- */
-        /* ----- Radio Button */
-        /* --------------------------------------- */
-        /* --------------------------------------- */
-        /* ----- Checkbox */
-        /* --------------------------------------- */ }
-        .fromCompra h2 {
-          font-size: 16px;
-          color: #001F3F;
-          margin-bottom: 20px;
-          margin-left: 20px; }
-        .fromCompra > div {
-          padding: 20px 0;
-          border-bottom: 1px solid #ccc; }
-        .fromCompra .radio label,
-        .fromCompra .checkbox label {
-          display: inline-block;
-          cursor: pointer;
-          color: rgb(204, 41, 38);
-          position: relative;
-          padding: 5px 15px 5px 51px;
-          font-size: 1em;
-          border-radius: 5px;
-          -webkit-transition: all 0.3s ease;
-          -o-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
-          .fromCompra .radio label:hover,
-          .fromCompra .checkbox label:hover {
-            background: rgba(255, 65, 54, 0.1); }
-          .fromCompra .radio label:before,
-          .fromCompra .checkbox label:before {
-            content: "";
-            display: inline-block;
-            width: 17px;
-            height: 17px;
-            position: absolute;
-            left: 15px;
-            border-radius: 50%;
-            background: none;
-            border: 3px solid rgb(204, 41, 38); }
-        .fromCompra input[type="radio"] {
-          display: none; }
-          .fromCompra input[type="radio"]:checked + label:before {
-            display: none; }
-          .fromCompra input[type="radio"]:checked + label {
-            padding: 5px 15px;
-            background:rgb(204, 41, 38);
-            border-radius: 2px;
-            color: #fff; }
-        .fromCompra .checkbox label:before {
-          border-radius: 3px; }
-        .fromCompra .checkbox input[type="checkbox"] {
-          display: none; }
-          .fromCompra .checkbox input[type="checkbox"]:checked + label:before {
-            display: none; }
-          .fromCompra .checkbox input[type="checkbox"]:checked + label {
-            background: rgb(204, 41, 38);
-            color: #fff;
-            padding: 5px 15px; }
-      
+.fromCompra > div {
+  padding: 0px 0;
+}
+
+.fromCompra .radio label {
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(204, 41, 38);
+  position: relative;
+  padding: 5px 15px 5px 51px;
+  font-size: 1em;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+
+.fromCompra .radio label:hover {
+  background: rgba(255, 65, 54, 0.1); 
+}
+
+.fromCompra .radio label:before{
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid rgb(204, 41, 38);
+ }
+
+.fromCompra input[type="radio"] {
+          display: none; 
+}
+
+.fromCompra input[type="radio"]:checked + label:before {
+            display: none;
+}
+
+.fromCompra input[type="radio"]:checked + label {
+  padding: 5px 15px;
+  background:rgb(204, 41, 38);
+  border-radius: 2px;
+  color: #fff; 
+}
