@@ -4,7 +4,7 @@ import "./styles_recomendaciones.css";
 
 import { recomendacionesjson } from "../../data/db.json";
 
-export const Recomendaciones = () => {
+function Recomendaciones() {
   return (
     <div className="container-principal">
       <h1>Destinos recomendados por nuestros viajeros</h1>
@@ -14,7 +14,7 @@ export const Recomendaciones = () => {
           {recomendacionesjson.map((data) => {
             return (
               <div className="container-recomendacion-imagen">
-                <img src={data.imagen} alt="imagen" />
+                <img src={imgM} alt="imagen" />
                 <div className="container-contenido-boton">
                   <div className="container-recomendacion-contenido">
                     <h1 className="ciudad">{data.titulo}</h1>
