@@ -1,0 +1,4 @@
+para jalar nuestros cambios del repo
+1git stash 
+2git pull
+3git stash apply

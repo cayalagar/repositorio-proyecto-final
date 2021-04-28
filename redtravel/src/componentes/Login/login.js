@@ -9,7 +9,7 @@ const Login = () => {
       <div className="container-registro">
           <img src={ImgUser} />
           <h1>INICIAR SESION</h1>
-          <form action="" method="get">
+          <form className="frmLogin" action="" method="get">
             <label name="correo"> Correo: </label>
             <input type="text" className="txt_reg_usuario" name="correo"/>
             <label name="password"> Password: </label>

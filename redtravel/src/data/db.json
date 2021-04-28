@@ -1,0 +1,60 @@
+{
+    "promocionesjson": [
+        {
+            "titulo": "Promocion Generica",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente, voluptatem error",
+            "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
+            "id":1
+        },
+        {
+            "titulo": "Promocion Generica",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente, voluptatem error",
+            "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
+            "id":2
+        },
+        {
+            "titulo": "Promocion Generica",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quaerat. Aliquid rem pariatur doloremque cumque ab dolore incidunt labore saepe, nemo omnis voluptatum tempore neque quo veritatis iste numquam delectus.Officiis nihil tenetur magnam aliquam minus quidem, ad assumenda exercitationem sed dolorem deleniti hic nam iusto corporis voluptatibus voluptatem fugiat mollitia rem consequuntur odio nulla in itaque. Sapiente, voluptatem error",
+            "imagen":"redtravel/src/assets/imagenes/promociones.jpg",
+            "id":3
+        }
+    ],
+    "recomendacionesjson":[
+        {
+            "titulo": "Cusco",
+            "body": "El Templo",
+            "imagen": "../assets/imagenes/cusco.jpg",
+            "id":1
+        },
+        {
+            "titulo": "Arequipa",
+            "body": "La Plaza de Armas",
+            "imagen":"../assets/imagenes/arequipa.jpg",
+            "id":2
+        },
+        {
+            "titulo": "Ica",
+            "body": "La Huacachina",
+            "imagen":"../assets/imagenes/ica.jpg",
+            "id":3
+        },
+        {
+            "titulo": "Puno",
+            "body": "El Lago Titi Caca",
+            "imagen":"../assets/imagenes/puno.jpg",
+            "id":4
+        },
+        {
+            "titulo": "Tacna",
+            "body": "El Portal",
+            "imagen":"../assets/imagenes/tacna.jpg",
+            "id":5
+        },
+        {
+            "titulo": "Trujillo",
+            "body": "El Monumento",
+            "imagen":"../assets/imagenes/trujillo.jpg",
+            "id":5
+        }
+    ]
+}

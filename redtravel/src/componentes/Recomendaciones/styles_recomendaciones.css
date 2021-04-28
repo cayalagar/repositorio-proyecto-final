@@ -1,0 +1,129 @@
+.container-principal {
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  padding-inline: 0;
+}
+.container-subprincipal{
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+}
+.container-recomendacion {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 1%;
+  text-align: center;
+  justify-content: center;
+}
+.container-recomendacion-contenido {
+  color: white;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.descripcion {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.ciudad {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
+}
+.container-recomendacion-imagen {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;margin: 1%;
+}
+.container-recomendacion-imagen img {
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-recomendacion-imagen img:hover {
+transform: scale(1.1);
+transition: all 1s ease-in-out;
+}
+
+
+.container-recomendacion-boton {
+  text-align: center;
+  bottom: 250px;
+
+}
+.container-contenido-boton {
+  text-align: center;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 490px;
+  width: 450px;
+}
+.container-recomendacion-boton button {
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 199, 56);
+  width: 280px;
+  height: 60px;
+  border: none;
+  font-size: 40px;
+}
+.container-recomendacion-boton button:hover{
+  transform:scale(1.05);
+  transition: all 0.3s;
+}
+.container-recomendacion-boton button:active{
+  transform:scale(1.0);
+  transition: all 0.2s;
+}
+
+.boton button{
+  margin-top: 50px;
+  width: 300px;
+  height: 70px;
+  border: 5px rgb(204, 41, 38) solid;
+  border-radius: 8px;
+  color: rgb(204, 41, 38);
+  font-size: 30px;
+  font-weight: bold;
+}
+.boton button:hover {
+  color: white;
+  background-color: rgb(204, 41, 38);
+  transform:scale(1.05);
+  transition: all 0.3s;
+}
+.boton button:active{
+  transform:scale(0.8);
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width:400px) {
+  .container-recomendacion-imagen img{
+    width: 100%;
+    height: auto;
+  }
+  .container-contenido-boton {
+    margin-top: 78%;
+    width: 86.5%;
+  }
+  .container-recomendacion-boton button{
+    width: 90%;
+    height: 75px;
+  }
+}
