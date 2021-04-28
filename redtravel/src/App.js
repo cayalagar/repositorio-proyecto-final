@@ -4,14 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./componentes/Header/header";
 import Login from "./componentes/Login/login";
 import Registro from "./componentes/Usuario/Registro";
-import Compra from "./componentes/Compra/Compra";
-import Footer from "./componentes/Footer/footer"
-import Promociones from "./componentes/Promociones/promociones"
-import Recomendaciones from "./componentes/Recomendaciones/recomendaciones"
+
 
 const App = () => {
   return (
-    
     <div>
     <Router>
       <Header />
@@ -39,7 +35,6 @@ const App = () => {
       </Switch>
       <Footer/>
     </Router>
-
     </div>
   );
 };
