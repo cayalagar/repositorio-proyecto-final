@@ -5,7 +5,7 @@ const Registro = () => {
     <div className="container-principal">
       <div className="container-registro">
           <h1>Registro de Usuario</h1>
-          <form action="" method="get">
+          <form className="frmRegistro" action="" method="get">
           <label name="nombre"> Nombres: </label>
           <input type="text" className="txt_reg_usuario" name="nombre"/>
           <label name="apellido"> Apellidos: </label>

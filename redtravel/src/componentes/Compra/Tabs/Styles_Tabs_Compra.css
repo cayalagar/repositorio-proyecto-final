@@ -1,0 +1,18 @@
+.cont-tab-gal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont-tab-gal-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cont-tab-gal-img-img{
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+}
