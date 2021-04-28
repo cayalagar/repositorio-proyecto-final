@@ -2,7 +2,7 @@
     font-size: 60px;
 }
 .bg-image{
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("./../../assets/images/catedral.jpg");
@@ -18,7 +18,7 @@
 }
 .saludo{
     color: white;
-    border: 5px solid blue;
+    /*border: 5px solid blue;*/
     border-radius: 30px;
     text-align: center;
     width: 80%;

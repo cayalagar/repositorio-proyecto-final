@@ -18,13 +18,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     font-size: larger;
 }
 .cajita{
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     text-align: left;
 }
 .informacion{
