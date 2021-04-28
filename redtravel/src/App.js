@@ -5,14 +5,20 @@ import Header from "./componentes/Header/header";
 import Login from "./componentes/Login/login";
 import Registro from "./componentes/Usuario/Registro";
 import Compra from "./componentes/Compra/Compra";
+import Footer from "./componentes/Footer/footer"
+import Promociones from "./componentes/Promociones/promociones"
+import Recomendaciones from "./componentes/Recomendaciones/recomendaciones"
+
 const App = () => {
   return (
+    
     <div>
     <Router>
       <Header />
       <Switch>
         <Route exact path="/">
           <Login />
+          <Promociones/>
         </Route>
         <Route exact path="/envios">
           <Compra />
@@ -22,6 +28,7 @@ const App = () => {
         </Route>
         <Route exact path="/paquetes">
           <Registro />
+          <Recomendaciones/>
         </Route>
         <Route exact path="/registro">
           <Registro />
@@ -30,7 +37,9 @@ const App = () => {
           <Login />
         </Route>
       </Switch>
+      <Footer/>
     </Router>
+
     </div>
   );
 };
