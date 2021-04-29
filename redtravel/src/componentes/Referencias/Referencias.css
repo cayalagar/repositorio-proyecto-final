@@ -1,0 +1,34 @@
+.referencias{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    /*border: 3px green solid;*/
+}
+.destinos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*border: 5px red solid;*/
+}
+.imagenes{
+    width: 40%;
+    margin: 30px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cusco{
+    background-image: url("./../../assets/images/cusco.jpg");
+}
+#arequipa{
+    background-image: url("./../../assets/images/arequipa.jpg");
+}
+#lima{
+    background-image: url("./../../assets/images/lima.jpg");
+}
+#puno{
+    background-image: url("./../../assets/images/puno.jpg");
+}

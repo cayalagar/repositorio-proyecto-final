@@ -1,0 +1,26 @@
+.cont-asiento{
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.bto_asiento{
+    width: 75px;
+    height: 35px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.bto_asiento_ocupado{
+    width: 75px;
+    height: 35px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: chocolate;
+}
+
+.imgBus{
+    height: 200px;
+}

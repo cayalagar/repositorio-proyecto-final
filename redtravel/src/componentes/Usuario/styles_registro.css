@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-form{
+.frmRegistro{
     display: flex;
     flex-direction: column;
     margin: 0px;

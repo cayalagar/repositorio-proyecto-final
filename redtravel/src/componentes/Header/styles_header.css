@@ -32,7 +32,7 @@
     flex-direction: row;
     justify-content: center;
 }
-a {
+.itemMenu {
     text-decoration: none;
     color: white;
     margin: 20px;
