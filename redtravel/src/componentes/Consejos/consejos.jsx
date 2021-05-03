@@ -29,7 +29,7 @@ export const Consejos = () => {
                 </div>
                 <div className="container-tarjetas">
                     <img src={imgDs} alt="" />
-                    <h2>Consejos</h2>
+                    <h2>Disfruta tu viaje</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id quos, quaerat sapiente consectetur veniam reiciendis. Distinctio reiciendis quis qui deserunt amet, repellendus velit rerum debitis assumenda reprehenderit sunt architecto!</p>
                 </div>
             </div>

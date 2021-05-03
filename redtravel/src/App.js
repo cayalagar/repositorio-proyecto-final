@@ -16,6 +16,9 @@ import { Temporada } from "./componentes/Temporadas/temporadas";
 import Verano from "./componentes/Temporadas/verano/verano"
 import Invierno from "./componentes/Temporadas/invierno/invierno"
 import Consejos from "./componentes/Consejos/consejos"
+import Primavera from "./componentes/Temporadas/primavera/primavera";
+import Otoño from "./componentes/Temporadas/otoño/otoño";
+import InfoDepartamento from "./componentes/InfoDepartamento/InfoDepartamento";
 
 
 const App = () => {
@@ -52,6 +55,7 @@ const App = () => {
       </Route>
       <Route exact path="/otoño">
       <Consejos/>
+      <Otoño/>
       <Temporada/>
       </Route>
       <Route exact path="/invierno">
@@ -61,7 +65,11 @@ const App = () => {
       </Route>
       <Route exact path="/primavera">
       <Consejos/>
+      <Primavera/>
       <Temporada/>
+      </Route>
+      <Route exact path="/departamento">
+      <InfoDepartamento/>
       </Route>
     </div>
       <Footer/>

@@ -1,32 +1,94 @@
 import React from "react";
-import imgM from "../../../assets/temporadas/verano/trujillo.jpg";
-import { inviernojson } from "../../../data/db.json";
+import imgTr from "../../../assets/temporadas/verano/trujillo.jpg";
+import imgL from "../../../assets/temporadas/verano/lima.jpg";
+import imgT from "../../../assets/temporadas/verano/tumbes.jpg";
+import imgA from "../../../assets/temporadas/verano/arequipa.jpg";
+import "./invierno.css";
 
 export const Invierno = () =>{
   return (
-    <div className="container-principal">
-      <h1>Destinos recomendados por nuestros viajeros</h1>
-      <div className="container-subprincipal">
-        <div className="container-recomendacion">
-
-          {inviernojson.map((data) => {
-            return (
-              <div className="container-recomendacion-imagen">
-                <img src={imgM} alt="imagen" />
-                <div className="container-contenido-boton">
-                  <div className="container-recomendacion-contenido">
-                    <h1 className="ciudad">{data.titulo}</h1>
-                    <p className="descripcion">{data.body}</p>
-                  </div>
-                  <div className="container-recomendacion-boton">
-                    <button>Saber más</button>
-                  </div>
+    <div class="contenedor">
+    <div class="contenedor-cards">            
+      <div class="contenedor-card-item">
+          <div class="contenedor-card-item-wrapper">
+            <a href="">
+            <img src={imgTr} alt=""/>
+            <div class="contenedor-info">
+                <div class="info">
+                  <h2 class="titulo">Trujillo</h2>
+                  <p class="categoria">Playas</p>
                 </div>
-              </div>
-            );})}
-        </div>
+                <div class="fondo"></div>
+            </div></a>
+          </div>
       </div>
-    </div>
+      <div class="contenedor-card-item">
+          <div class="contenedor-card-item-wrapper">
+            <a href="">
+            <img src={imgL} alt=""/>
+            <div class="contenedor-info">
+                <div class="info">
+                  <h2 class="titulo">Lima</h2>
+                  <p class="categoria">Chorrillos</p>
+                </div>
+                <div class="fondo"></div>
+            </div></a>
+          </div>
+      </div>
+      <div class="contenedor-card-item">
+          <div class="contenedor-card-item-wrapper">
+            <a href="">
+            <img src={imgT} alt=""/>
+            <div class="contenedor-info">
+                <div class="info">
+                  <h2 class="titulo">Tumbes</h2>
+                  <p class="categoria">Costas</p>
+                </div>
+                <div class="fondo"></div>
+            </div></a>
+          </div>
+      </div>
+      <div class="contenedor-card-item">
+          <div class="contenedor-card-item-wrapper">
+            <a href="">
+            <img src="https://images.unsplash.com/photo-1440335680360-79703e7032f9" alt=""/>
+            <div class="contenedor-info">
+                <div class="info">
+                  <h2 class="titulo">Titulo</h2>
+                  <p class="categoria">Categoría</p>
+                </div>
+                <div class="fondo"></div>
+            </div></a>
+          </div>
+      </div>
+      <div class="contenedor-card-item">
+          <div class="contenedor-card-item-wrapper">
+            <a href="">
+            <img src="https://images.unsplash.com/photo-1455461491901-a0990c10d84c" alt=""/>
+            <div class="contenedor-info">
+                <div class="info">
+                  <h2 class="titulo">Titulo</h2>
+                  <p class="categoria">Categoría</p>
+                </div>
+                <div class="fondo"></div>
+            </div></a>
+          </div>
+      </div>
+      <div class="contenedor-card-item">
+          <div class="contenedor-card-item-wrapper">
+            <a href="">
+            <img src="https://images.unsplash.com/photo-1454997423871-b5215756e54d" alt=""/>
+            <div class="contenedor-info">
+                <div class="info">
+                  <h2 class="titulo">Titulo</h2>
+                  <p class="categoria">Categoría</p>
+                </div>
+                <div class="fondo"></div>
+            </div></a>
+          </div>
+      </div>
+     </div>
+</div>
   );
 };
 export default Invierno ;

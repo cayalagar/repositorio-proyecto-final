@@ -1,0 +1,67 @@
+.container-atractivos {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    padding-top: 0;
+    padding-bottom: 140px
+}
+.container-atractivos h1{
+    margin-bottom: 150px;
+}
+.container-fondo{
+    background-color: rgb(21, 29, 39);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.tarjetas{
+    background-image: url("https://www.peru.travel/Contenido/Atractivo/Imagen/pe/92/1.1/Principal/Canteras de sillar de Anashuayco.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 340px;
+    margin: 0 5%;
+    overflow: hidden;
+    transform: scaleY(1.4) scaleX(1.1);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.tarjetas h2 {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    color: whitesmoke;
+    position: absolute;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+}
+.tarjetas p{
+    position: absolute;
+    bottom: -120px;
+    padding: 10px 30px;
+    text-align: justify;
+}
+.tarjetas:hover{
+    box-shadow: 0px 5px 10px 0px rgb(88, 88, 88);
+    transition: 1s all ease-out;
+}
+.tarjetas:hover p{
+    transform: translateY(-100px);
+    transition: 1s all ease-in-out;
+    background:#06060a;
+}
+.tarjetas:hover h2{
+    transform: translateY(-160px);
+    transition: 1s all ease-in-out;
+    background-image: linear-gradient(#00000000, #06060a);
+    display: block;
+}
+@media (max-width:550px) {
+    .tarjetas{
+        transform: scale(1);
+    }
+}

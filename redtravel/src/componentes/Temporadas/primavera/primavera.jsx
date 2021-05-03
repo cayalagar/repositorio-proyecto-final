@@ -3,9 +3,9 @@ import imgTr from "../../../assets/temporadas/verano/trujillo.jpg";
 import imgL from "../../../assets/temporadas/verano/lima.jpg";
 import imgT from "../../../assets/temporadas/verano/tumbes.jpg";
 import imgA from "../../../assets/temporadas/verano/arequipa.jpg";
-import "./verano.css";
+import "./primavera.css";
 
-export const Verano = () =>{
+export const Primavera = () =>{
   return (
     <div class="contenedor">
     <div class="contenedor-cards">            
@@ -76,12 +76,12 @@ export const Verano = () =>{
       </div>
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
-            <a href="/departamento">
-            <img src={imgA} alt="Arequipa"/>
+            <a href="">
+            <img src="https://images.unsplash.com/photo-1454997423871-b5215756e54d" alt=""/>
             <div class="contenedor-info">
                 <div class="info">
-                  <h2 class="titulo">Arequipa</h2>
-                  <p class="categoria">Playa De Mollendo</p>
+                  <h2 class="titulo">Titulo</h2>
+                  <p class="categoria">Categoría</p>
                 </div>
                 <div class="fondo"></div>
             </div></a>
@@ -91,4 +91,4 @@ export const Verano = () =>{
 </div>
   );
 };
-export default Verano ;
+export default Primavera ;
