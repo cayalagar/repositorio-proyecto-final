@@ -11,7 +11,7 @@ export const Verano = () =>{
     <div class="contenedor-cards">            
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
-            <a href="">
+            <a href="/departamento">
             <img src={imgTr} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
@@ -24,7 +24,7 @@ export const Verano = () =>{
       </div>
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
-            <a href="">
+            <a href="/departamento">
             <img src={imgL} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
@@ -37,7 +37,7 @@ export const Verano = () =>{
       </div>
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
-            <a href="">
+            <a href="/departamento">
             <img src={imgT} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
@@ -50,7 +50,7 @@ export const Verano = () =>{
       </div>
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
-            <a href="">
+            <a href="/departamento">
             <img src="https://images.unsplash.com/photo-1440335680360-79703e7032f9" alt=""/>
             <div class="contenedor-info">
                 <div class="info">
@@ -63,7 +63,7 @@ export const Verano = () =>{
       </div>
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
-            <a href="">
+            <a href="/departamento">
             <img src="https://images.unsplash.com/photo-1455461491901-a0990c10d84c" alt=""/>
             <div class="contenedor-info">
                 <div class="info">
