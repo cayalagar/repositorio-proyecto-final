@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from "./componentes/Header/header";
 
-
 import Login from "./componentes/Login/login";
 import Registro from "./componentes/Usuario/Registro";
 

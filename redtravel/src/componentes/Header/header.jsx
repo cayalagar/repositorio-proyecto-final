@@ -16,7 +16,9 @@ const Header = () => {
               Tu busqueda perfecta para viajar
           </div>
           <div className="container-usuario">
-              <img src={ImgUser} className="imgUsuario" />
+              <a href="/login">
+                  <img src={ImgUser} className="imgUsuario" />
+              </a>
           </div>
         </div>  
         <div className="Contenedor-navBar">
