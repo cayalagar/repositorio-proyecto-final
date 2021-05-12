@@ -4,51 +4,80 @@
     font-family: 'Roboto Condensed', sans-serif;
   }
 
-.container-principal{
+.cont-reg-principal{
+    border:none;
+    color: rgb(255, 255, 255);
+    background-image: url("../../assets/imagenes/registro/fondo01.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    background-color:black;
-    text-align: center;
-    align-items: center;
-    padding-top: 50px;
+    flex-direction:row;
+    justify-content:flex-end;
+    padding-top: 20px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    
 }
 
-.container-registro{
-    border-radius: 25px;
-    background-color:rgb(252, 252, 252);
-    width: 500px;
-    text-align: center;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+.cont-reg-datos{
+    border:none;
+    width: 500px; 
 }
 
 .frmRegistro{
+    border:none;
     display: flex;
     flex-direction: column;
     margin: 0px;
+}
+
+.cont-reg-datos h1{
+    color: rgb(231, 156, 43);
     text-align: center;
-    align-items: center;
+}
+
+.cont-reg-datos-per{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
 }
 
 .txt_reg_usuario{
     width: 250px;
     height: 30px;
-    border: 0px;
-    border-radius: 25px;
-    background-color: rgb(196, 196, 196);
+    color:white;
+    border: none;
+    border-bottom:5px rgb(177, 173, 162) solid ;
+    /*
+    opacity: 0.3;
+	filter: alpha(opacity=100); 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 89.58%, #C4C4C4 100%);
+    */
+    background: transparent;
+    margin-left: 10px;
+}
+
+.lbl_reg_usuario{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cont-reg-datos-bot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .btm_registro{
     width: 250px;
-    height: 30px;
+    height: 35px;
+    font-size: 25px;
     border-radius: 50px;
     background-color:  rgb(204, 41, 38);
-    color: rgb(243, 236, 236);
+    color: rgb(255, 255, 255);
 }

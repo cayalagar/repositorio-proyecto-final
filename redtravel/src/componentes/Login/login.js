@@ -5,8 +5,8 @@ import "./styles_login.css"
 
 const Login = () => {
   return (
-    <div className="container-principal">
-      <div className="container-registro">
+    <div className="cont-principal-log">
+      <div className="cont-registro-log">
           <img src={ImgUser} />
           <h1>INICIAR SESION</h1>
           <form className="frmLogin" action="" method="get">

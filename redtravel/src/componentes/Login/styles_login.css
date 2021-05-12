@@ -4,15 +4,50 @@
     font-family: 'Roboto Condensed', sans-serif;
   }
 
-  img{
+  .cont-principal-log{
+    border:none;
+    color: rgb(255, 255, 255);
+    background-image: url("../../assets/imagenes/login/fondo_log01.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.cont-registro-log{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cont-registro-log h1{
+  border: 0px;
+  color: rgb(231, 156, 43);
+  text-align: center;
+  font-size: 50px;
+}
+
+.cont-registro-log img{
       width: 100px;
       height: 100px;
   }
 
   .frmLogin{
+    border:none;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
     margin: 0px;
-    text-align: center;
-    align-items: center;
 }

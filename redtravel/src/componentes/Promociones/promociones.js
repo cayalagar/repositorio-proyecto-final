@@ -10,8 +10,6 @@ export const Promociones = () => {
   return (
     <div className="container-promociones-titulo">
       <h1>¡No te lo puedes perder!</h1>
-
-
       {promocionesjson.map((data,key) => {
         return(
               <div className="container-promociones-contenido" key={key.id}>
