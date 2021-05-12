@@ -1,0 +1,37 @@
+.container-base {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.712),
+    rgba(0, 0, 0, 0.5)), url(../../assets/consejos/fondo.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    align-content: center;
+}
+.container-base h1 {
+    margin: 0;
+    padding-top: 40px;
+    color: white;
+}
+.container-consejos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-tarjetas {
+width: 300px;
+text-align: justify;
+margin: 2%;
+padding: 1%;
+color: white;
+}
+.container-tarjetas p{
+    font-style: normal;
+    color: rgb(243, 243, 243);
+}
+.container-tarjetas img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100% ;
+}
