@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Barra.css";
+import Buscar from "./../../Buscar/Buscar"
 
 const Barra = () => {
     return (
@@ -39,6 +40,10 @@ const Barra = () => {
 
                     <label htmlFor="pasajeros">Adultos y niños</label>
                     <input type="text" className="informacion" name="pasajeros" />
+                </div>
+                <div className="BotonBuscar">
+
+                    <Buscar/>
                 </div>
             </div>
         </div>
