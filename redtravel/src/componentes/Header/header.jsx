@@ -24,7 +24,7 @@ const Header = () => {
         <div className="Contenedor-navBar">
           <nav>
             <a className="itemMenu" href="/">Pasajes</a>
-            <a className="itemMenu" href="/alojamiento">Alojamiento</a>
+            <a className="itemMenu" href="/alojamiento">Compra</a>
             <a className="itemMenu" href="/Recomendadas">Recomendadas</a>
             <a className="itemMenu" href="/registro">Registrate</a>
           </nav>
