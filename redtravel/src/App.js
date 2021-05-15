@@ -11,11 +11,17 @@ import Compra from "./componentes/Compra/Compra";
 import Footer from "./componentes/Footer/footer"
 import Promociones from "./componentes/Promociones/promociones"
 import Recomendaciones from "./componentes/Recomendaciones/recomendaciones"
+import { Temporada } from "./componentes/Temporadas/temporadas";
+import Verano from "./componentes/Temporadas/verano/verano"
+import Invierno from "./componentes/Temporadas/invierno/invierno"
+import Consejos from "./componentes/Consejos/consejos"
+import Primavera from "./componentes/Temporadas/primavera/primavera";
+import Otoño from "./componentes/Temporadas/otoño/otoño";
+import InfoDepartamento from "./componentes/InfoDepartamento/InfoDepartamento";
 
 
 const App = () => {
   return (
-    <div>
     <Router>
        <Header />
       <Switch>
@@ -31,6 +37,7 @@ const App = () => {
         </Route>
         <Route exact path="/Recomendadas">
           <Recomendaciones/>
+          <Temporada/>
         </Route>
         <Route exact path="/registro">
           <Registro />
@@ -39,9 +46,8 @@ const App = () => {
           <Login />
         </Route>
       </Switch>
-      <Footer/> 
+
     </Router>
-    </div>
   );
 };
 
