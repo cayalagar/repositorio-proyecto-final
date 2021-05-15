@@ -18,6 +18,10 @@
     border-radius: 10px;
     overflow: hidden;
 }
+.container-map a{
+    text-decoration: none;
+    color: rgb(8, 11, 18);
+}
 .container-map img {
     width: 100%;
     height: 350px;
@@ -33,8 +37,12 @@
     padding-inline: 3%;
     margin: 0;
     text-align:justify ;
+    text-decoration: none;
 }
-
+.container-map:hover {
+    transform: scale(1.02);
+    transition: 0.5s all;
+}
 @media (max-width :500px) {
     .container-texto{
         margin-inline: 5%;

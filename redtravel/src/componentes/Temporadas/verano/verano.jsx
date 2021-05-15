@@ -10,7 +10,8 @@ import "./verano.css";
 export const Verano = () =>{
   return (
     <div class="contenedor">
-    <div class="contenedor-cards">            
+      <h1>¡Los mejores destinos en esta temporada!</h1>   
+    <div class="contenedor-cards">   
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
             <a href="/departamento">
@@ -79,7 +80,7 @@ export const Verano = () =>{
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
             <a href="/departamento">
-            <img src={imgA} alt="Arequipa"/>
+            <img src={imgA} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
                   <h2 class="titulo">Arequipa</h2>

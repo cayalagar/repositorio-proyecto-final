@@ -45,8 +45,33 @@ const App = () => {
         <Route exact path="/login">
           <Login />
         </Route>
+        <div className="Temporadas">
+            <Route exact path="/verano">
+              <Temporada/>
+              <Verano/>
+              <Consejos/>
+            </Route>
+            <Route exact path="/primavera">
+              <Temporada/>
+              <Verano/>
+              <Consejos/>
+            </Route>
+            <Route exact path="/otoño">
+              <Temporada/>
+              <Verano/>
+              <Consejos/>
+            </Route>
+            <Route exact path="/invierno">
+              <Temporada/>
+              <Verano/>
+              <Consejos/>
+            </Route>
+            <Route exact path="/departamento">
+              <InfoDepartamento/>
+            </Route>
+        </div>
       </Switch>
-
+      <Footer/>
     </Router>
   );
 };

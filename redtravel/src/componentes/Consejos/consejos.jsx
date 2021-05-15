@@ -30,7 +30,7 @@ export const Consejos = () => {
                 <div className="container-tarjetas">
                     <img src={imgDs} alt="" />
                     <h2>Disfruta tu viaje</h2>
-                    <p>Cuando ya estas listo para recorrer por todo el peru, no debes preocuparte por otras cosasm si es que cumpliste todo lo que te aconsejamos anteriormente, espero que disfrutes el recorrido.</p>
+                    <p>Cuando ya estas listo para recorrer por todo el peru, no debes preocuparte por otras cosas si es que cumpliste todo lo que te aconsejamos anteriormente, espero que disfrutes el recorrido.</p>
                 </div>
             </div>
         </div>
