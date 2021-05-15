@@ -21,7 +21,7 @@ export const Promociones = () => {
                   </a>
                 </div>
               </div>
-      );})};
+      );})}
 
 
 

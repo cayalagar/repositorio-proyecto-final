@@ -3,12 +3,15 @@ import imgTr from "../../../assets/temporadas/verano/trujillo.jpg";
 import imgL from "../../../assets/temporadas/verano/lima.jpg";
 import imgT from "../../../assets/temporadas/verano/tumbes.jpg";
 import imgA from "../../../assets/temporadas/verano/arequipa.jpg";
+import imgC from "../../../assets/temporadas/verano/Camana.jpg"
+import imgM from "../../../assets/temporadas/verano/mancora.png"
 import "./verano.css";
 
 export const Verano = () =>{
   return (
     <div class="contenedor">
-    <div class="contenedor-cards">            
+      <h1>¡Los mejores destinos en esta temporada!</h1>   
+    <div class="contenedor-cards">   
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
             <a href="/departamento">
@@ -51,11 +54,11 @@ export const Verano = () =>{
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
             <a href="/departamento">
-            <img src="https://images.unsplash.com/photo-1440335680360-79703e7032f9" alt=""/>
+            <img src={imgC} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
-                  <h2 class="titulo">Titulo</h2>
-                  <p class="categoria">Categoría</p>
+                  <h2 class="titulo">Arequipa</h2>
+                  <p class="categoria">Camaná</p>
                 </div>
                 <div class="fondo"></div>
             </div></a>
@@ -64,11 +67,11 @@ export const Verano = () =>{
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
             <a href="/departamento">
-            <img src="https://images.unsplash.com/photo-1455461491901-a0990c10d84c" alt=""/>
+            <img src={imgM} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
-                  <h2 class="titulo">Titulo</h2>
-                  <p class="categoria">Categoría</p>
+                  <h2 class="titulo">Piura</h2>
+                  <p class="categoria">Máncora</p>
                 </div>
                 <div class="fondo"></div>
             </div></a>
@@ -77,7 +80,7 @@ export const Verano = () =>{
       <div class="contenedor-card-item">
           <div class="contenedor-card-item-wrapper">
             <a href="/departamento">
-            <img src={imgA} alt="Arequipa"/>
+            <img src={imgA} alt=""/>
             <div class="contenedor-info">
                 <div class="info">
                   <h2 class="titulo">Arequipa</h2>

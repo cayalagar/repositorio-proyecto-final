@@ -29,16 +29,16 @@
     background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 8%, rgba(0,212,255,0) 100%);
 }
 #cusco{
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/images/cusco.jpg");
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/imagenes/images/cusco.jpg");
 }
 #arequipa{
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/images/arequipa.jpg");
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/imagenes/images/arequipa.jpg");
 }
 #lima{
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/images/lima.jpg");
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/imagenes/images/lima.jpg");
 }
 #puno{
-    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/images/puno.jpg");
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6250700963979341) 0%, rgba(0,0,0,0.35896365382090334) 3%, rgba(0,212,255,0) 100%),url("./../../assets/imagenes/images/puno.jpg");
 }
 
 .imagenes:hover{
