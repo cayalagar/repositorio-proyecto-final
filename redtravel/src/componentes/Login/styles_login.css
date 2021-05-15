@@ -51,3 +51,28 @@
     align-items: left;
     margin: 0px;
 }
+
+@media  only screen and (max-width:768px) {
+  .cont-principal-log{
+    width: auto;
+    height: 100%;
+    background-attachment:scroll;
+    background-size: cover;
+    background-repeat: repeat;
+    justify-content:center;
+  }
+
+
+  .cont-registro-log{
+    width: 300px;
+  }
+
+  .cont-registro-log h1{
+    font-size: 20px;
+  }
+
+  .cont-registro-log img{
+    width: 50px;
+    height: 50px;
+  }
+}

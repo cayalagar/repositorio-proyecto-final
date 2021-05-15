@@ -23,7 +23,7 @@ import InfoDepartamento from "./componentes/InfoDepartamento/InfoDepartamento";
 const App = () => {
   return (
     <Router>
-      <Header />
+       <Header />
       <Switch>
         <Route exact path="/">
           <Body />
@@ -46,32 +46,7 @@ const App = () => {
           <Login />
         </Route>
       </Switch>
-      <div>
-      <Route exact path="/verano">
-      <Consejos/>
-      <Verano/>
-      <Temporada/>
-      </Route>
-      <Route exact path="/otoño">
-      <Consejos/>
-      <Otoño/>
-      <Temporada/>
-      </Route>
-      <Route exact path="/invierno">
-      <Consejos/>
-      <Invierno/>
-      <Temporada/>
-      </Route>
-      <Route exact path="/primavera">
-      <Consejos/>
-      <Primavera/>
-      <Temporada/>
-      </Route>
-      <Route exact path="/departamento">
-      <InfoDepartamento/>
-      </Route>
-    </div>
-      <Footer/>
+
     </Router>
   );
 };

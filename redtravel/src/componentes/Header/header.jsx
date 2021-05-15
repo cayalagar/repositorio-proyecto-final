@@ -22,16 +22,14 @@ const Header = () => {
           </div>
         </div>  
         <div className="Contenedor-navBar">
-        <nav>
-          <a className="itemMenu" href="/">Pasajes</a>
-          <a className="itemMenu" href="/envios">Envios</a>
-          <a className="itemMenu" href="/alojamiento">Alojamiento</a>
-          <a className="itemMenu" href="/Recomendadas">Recomendadas</a>
-          <a className="itemMenu" href="/registro">Registrate</a>
-        </nav>
+          <nav>
+            <a className="itemMenu" href="/">Pasajes</a>
+            <a className="itemMenu" href="/alojamiento">Alojamiento</a>
+            <a className="itemMenu" href="/Recomendadas">Recomendadas</a>
+            <a className="itemMenu" href="/registro">Registrate</a>
+          </nav>
+        </div>
     </div>
-    </div>
-
   );
 };
 
