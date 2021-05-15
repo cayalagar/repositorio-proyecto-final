@@ -3,9 +3,9 @@ import MapCompra from "../CompraMap/CompraMap.jsx";
 import TabsCompra from "./Tabs/Tabs_Compra.jsx";
 import BusAsientos from "./Bus/Bus_Compra.jsx";
 
-import logoVisa from "../../assets/imagenes/medios_de_pago/visa.png";
-import logoPayPal from "../../assets/imagenes/medios_de_pago/paypal.png";
-import logoPagEfe from "../../assets/imagenes/medios_de_pago/pago-efectivo.svg";
+import logoVisa from "../../assets/images/medios_de_pago/visa.png";
+import logoPayPal from "../../assets/images/medios_de_pago/paypal.png";
+import logoPagEfe from "../../assets/images/medios_de_pago/pago-efectivo.svg";
 
 import "./styles_Compra.css";
 
