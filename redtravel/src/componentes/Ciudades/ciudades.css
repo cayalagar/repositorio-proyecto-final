@@ -1,0 +1,28 @@
+.container-ciudades {
+    border-top: 1px solid rgb(153, 153, 153);
+    padding: 3%;
+}
+.lista h1{
+    padding-inline: 4%;
+}
+.container-ciudades ul {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+.container-ciudades li {
+    padding: 2%;
+}
+@media (max-width:500px) {
+    .container-ciudades li {
+        width: 90px;
+        padding: 1%;
+    }
+    .container-ciudades ul{
+        width: 75%;
+    }
+}

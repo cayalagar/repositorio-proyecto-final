@@ -19,6 +19,7 @@ function Atractivos() {
           <img src="https://i.pinimg.com/564x/a4/9b/b3/a49bb3cd0597e441a1a330ec5c959b66.jpg" alt="" />
         </div>
       </div>
+      <button>Comprar Boletos</button>
     </div>
   );
 }

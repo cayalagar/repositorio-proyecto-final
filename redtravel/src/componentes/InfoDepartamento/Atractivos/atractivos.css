@@ -1,3 +1,9 @@
+button{
+    outline: none;
+}
+input{
+    outline: none;
+}
 .container-atractivos {
     justify-content: center;
     text-align: center;
@@ -37,6 +43,28 @@
     background-color: #1d2638f3;
     border-radius: 10px;
     z-index: 1;
+}
+
+.container-atractivos button{
+    margin: 40px 0;
+    width: 350px;
+    height: 90px;
+    border: 7px rgb(189, 37, 34) solid;
+    border-radius: 10px;
+    color: rgb(194, 38, 35);
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+}
+.container-atractivos button:hover {
+    color: white;
+    background-color: rgb(204, 41, 38);
+    transform:scale(1.05);
+    transition: all 0.3s;
+}
+.container-atractivos button:active{
+    transform:scale(0.8);
+    transition: all 0.2s;
 }
 
 .tarjetas:hover{

@@ -16,6 +16,8 @@ body{
 .container-promociones-titulo {
   text-align: center;
   color: rgba(0, 0, 0, 0.75);
+  background-color: rgb(253, 253, 253);
+  border-top: 1px solid rgb(153, 153, 153);
 }
 .container-promociones-contenido p {
   padding-inline: 30px;
@@ -37,7 +39,7 @@ body{
   max-height: 2000px;
   display: flex;
   animation-name: fadeIn;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes fadeIn {
@@ -55,7 +57,8 @@ body{
   transform: scale(1.06);
   transition: all 0.5s;
 } 
-.container-promocion:scope {
-  transform: scale(1);
-  transition: all 0.5s ease-in-out;
+@media (max-width:450px) {
+  .container-promocion{
+    height: 100%;
+  }
 }
