@@ -166,3 +166,44 @@
   border-radius: 2px;
   color: #fff; 
 }
+
+@media  only screen and (max-width:768px) {
+  .contenedor-compra{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .contenedor-mapa{
+      display: none;
+  }
+
+  .contenedor-destino{
+      width:300px;
+      height: 400px;
+      padding-left: 0px;
+  }
+
+  .txtcompra{
+    font-size: 15px;
+  }
+
+  .botom-compra{
+      font-size: 20px;   
+  }
+
+  /****************/
+  .Contendor-tab{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contenedor_asientos{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}

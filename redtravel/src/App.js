@@ -21,7 +21,7 @@ import InfoDepartamento from "./componentes/InfoDepartamento/InfoDepartamento";
 
 const App = () => {
   return (
-    <Router>
+<Router>
        <Header />
       <Switch>
         <Route exact path="/">

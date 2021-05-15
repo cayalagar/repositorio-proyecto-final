@@ -3,16 +3,16 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import "../Tabs/Styles_Tabs_Compra.css"
 
-import Imagen1 from "../../../assets/imagenes/arequipa/arequipa1.jpg"
-import Imagen2 from "../../../assets/imagenes/arequipa/arequipa2.jpg"
-import Imagen3 from "../../../assets/imagenes/arequipa/arequipa3.jfif"
-import Imagen4 from "../../../assets/imagenes/arequipa/arequipa4.jfif"
+import Imagen1 from "../../../assets/images/arequipa/arequipa1.jpg"
+import Imagen2 from "../../../assets/images/arequipa/arequipa2.jpg"
+import Imagen3 from "../../../assets/images/arequipa/arequipa3.jfif"
+import Imagen4 from "../../../assets/images/arequipa/arequipa4.jfif"
 
 const TabsCompra=() => (
   <Tabs>
     <TabList>
       <Tab>Descripción</Tab>
-      <Tab>Opciones</Tab>
+      <Tab>Opiniones</Tab>
       <Tab>Galeria</Tab>
     </TabList>
 
