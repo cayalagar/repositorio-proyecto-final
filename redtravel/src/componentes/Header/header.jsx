@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
-import Logo from "../../assets/imagenes/RedTravel_Original.jpeg"
-import ImgUser from "../../assets/imagenes/login_usuario.png"
+import Logo from "../../assets/images/RedTravel_Original.jpeg"
+import ImgUser from "../../assets/images/login_usuario.png"
 import "./styles_header.css"
 
 const Header = () => {

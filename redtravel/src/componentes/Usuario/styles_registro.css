@@ -7,7 +7,7 @@
 .cont-reg-principal{
     border:none;
     color: rgb(255, 255, 255);
-    background-image: url("../../assets/imagenes/registro/fondo01.png");
+    background-image: url("../../assets/images/registro/fondo01.png");
     background-position:center center;
     background-repeat: no-repeat;
     /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
