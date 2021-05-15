@@ -81,3 +81,66 @@
     background-color:  rgb(204, 41, 38);
     color: rgb(255, 255, 255);
 }
+
+@media  only screen and (max-width:768px) {
+
+    .cont-reg-principal{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .cont-reg-datos{
+        margin-top: 0px;
+        border:none;
+        width: auto; 
+    }
+    
+    .frmRegistro{
+        border:none;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .cont-reg-datos h1{
+        color: rgb(231, 156, 43);
+        text-align: center;
+    }
+    
+    .cont-reg-datos-per{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        width: 180px;
+    }
+    
+    .txt_reg_usuario{
+        width: 150px;
+        height: 25px;
+        margin-left: 0px;
+    }
+    
+    .lbl_reg_usuario{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .cont-reg-datos-bot{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .btm_registro{
+        width: 150px;
+        height: 25px;
+        font-size: 15px;
+        border-radius: 50px;
+    }
+}
