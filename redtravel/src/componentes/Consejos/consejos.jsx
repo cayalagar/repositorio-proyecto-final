@@ -15,22 +15,22 @@ export const Consejos = () => {
                 <div className="container-tarjetas">
                     <img src={imgD} alt="" />
                     <h2>Lleva un dinero extra</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id quos, quaerat sapiente consectetur veniam reiciendis. Distinctio reiciendis quis qui deserunt amet, repellendus velit rerum debitis assumenda reprehenderit sunt architecto!</p>
+                    <p>Al planear un viaje nosotros normalemte llevamos lo justo para no gastar de más, lo que suele pasar es que encontramos algun recuerdo que quisieramos llevarnos a casa y nos disponemos del dinero, por eso te aconsejamos que lleves un poco mas de dinero.</p>
                 </div>
                 <div className="container-tarjetas">
                     <img src={imgR} alt="" />
                     <h2>Alista la ropa correcta</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id quos, quaerat sapiente consectetur veniam reiciendis. Distinctio reiciendis quis qui deserunt amet, repellendus velit rerum debitis assumenda reprehenderit sunt architecto!</p>
+                    <p>Cuando viajamos tenemos que tener encuenta en la temporada que nos encontramos,si hace frio o calor, segun eso nos vestimos para no tener una mala experiencia, por eso te recomendamos alistar tu ropa segun la temporada de viaje</p>
                 </div>
                 <div className="container-tarjetas">
                     <img src={imgP} alt="" />
                     <h2>Planifica tus tiempos</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id quos, quaerat sapiente consectetur veniam reiciendis. Distinctio reiciendis quis qui deserunt amet, repellendus velit rerum debitis assumenda reprehenderit sunt architecto!</p>
+                    <p>Aveces solemos solicitar un viaje lo mas pronto posible, pero no simepre es buena opcion porque aveces no encontramos el transporte ideal para nosotros, sugerimos tener anticipacion en tus compras de los boletos para evitar malas experiencias en sus compras</p>
                 </div>
                 <div className="container-tarjetas">
                     <img src={imgDs} alt="" />
                     <h2>Disfruta tu viaje</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id quos, quaerat sapiente consectetur veniam reiciendis. Distinctio reiciendis quis qui deserunt amet, repellendus velit rerum debitis assumenda reprehenderit sunt architecto!</p>
+                    <p>Cuando ya estas listo para recorrer por todo el peru, no debes preocuparte por otras cosasm si es que cumpliste todo lo que te aconsejamos anteriormente, espero que disfrutes el recorrido.</p>
                 </div>
             </div>
         </div>

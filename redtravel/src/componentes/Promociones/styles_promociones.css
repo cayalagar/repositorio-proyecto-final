@@ -49,7 +49,12 @@ body{
   transform: scale(1.03);
   transform: translateY(-15px);
   transition: all 0.5s ease-in-out;
+  overflow: hidden;
 }
+.container-promocion:hover img {
+  transform: scale(1.06);
+  transition: all 0.5s;
+} 
 .container-promocion:scope {
   transform: scale(1);
   transition: all 0.5s ease-in-out;

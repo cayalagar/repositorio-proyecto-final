@@ -35,6 +35,10 @@ body {
     transform: scale(1.05);
     transition: all 0.5s;
 }
+.container-cards:active{
+    transform:scale(0.9);
+    transition: all 0.2s;
+  }
 .container-temporada{
     background-image: linear-gradient(rgba(1, 3, 20, 0.712),
     rgba(3, 1, 14, 0.5)),url(../../assets/temporadas/fondo.jpeg);
@@ -55,4 +59,12 @@ body {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+}
+@media only screen and (max-width:350px) {
+    .container-cards{
+        width: 60%;
+    }
+    .container-temporada img{
+        width: 100%;
+    }
 }

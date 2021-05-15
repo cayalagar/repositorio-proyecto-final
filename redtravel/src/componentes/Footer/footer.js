@@ -5,7 +5,6 @@ import img2 from "../../assets/imagenes/visa-logo.svg";
 import img3 from "../../assets/imagenes/facebook-logo.svg";
 import img4 from "../../assets/imagenes/whatsapp-logo.svg";
 import img5 from "../../assets/imagenes/yape-logo.png";
-import img6 from "../../assets/imagenes/bancodelanacion-logo.png";
 import "./styles_footer.css";
 
 const Footer = () => {
@@ -33,16 +32,16 @@ const Footer = () => {
         </a>
       </div>
       <div className="container-nosotros">
-        <h3>Nosotros</h3>
+        <h3>Nuestra compañia</h3>
         <p>
-          El teléfono, la dirección y los horarios son tres elementos básicos
-          que deben estar sí o sí en todas las páginas de contacto y, como no,
-          también en la cabecera y en el footer. Pero, además de ello es muy
-          recomendable incluir los siguientes elementos:
+          RedTravel, en un esfuerzo conjunto por mejorar la calidad del servicio
+          y brindar mayores beneficios a todos los usuarios. A través de su
+          nueva página web y moderna aplicación móvil, RedTravel
+          ofrece pasajes de bus para las rutas más importantes del Perú
         </p>
       </div>
       <div className="container-metodos-de-pago">
-      <h3>Metodos de pago</h3>
+        <h3>Metodos de pago</h3>
         <a href="#">
           <img src={img} className="imgredes" />
         </a>
@@ -54,9 +53,6 @@ const Footer = () => {
         </a>
         <a href="#">
           <img src={img5} className="imgredes" />
-        </a>
-        <a href="#">
-          <img src={img6} className="imgredes" />
         </a>
       </div>
     </div>
