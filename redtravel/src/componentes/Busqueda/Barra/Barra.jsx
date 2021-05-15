@@ -31,8 +31,8 @@ const Barra = () => {
                 <div className="cajita">
                     <label htmlFor="fechas">Fechas</label>
                     <div className="fechas">
-                        <input type="text" className="informacion2" name="fechas1" />
-                        <input type="text" className="informacion2" name="fechas2" />
+                        <input type="date" className="informacion2" name="fechas1" value="2021-05-15" min="2021-05-15"/>
+                        <input type="date" className="informacion2" name="fechas2" min="2021-05-15"/>
                     </div>
 
                 </div>

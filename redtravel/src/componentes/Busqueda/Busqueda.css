@@ -15,7 +15,7 @@
     background-attachment: fixed;
     text-align: center;
     position: relative;
-    height: 500px;
+    height: 400px;
     
 
     display: flex;
@@ -30,8 +30,14 @@
     text-align: center;
     width: 80%;
     background-color: rgba(0, 0, 0, 0.432);
+    padding-top: 30px;
+    margin-top: auto;
     margin-bottom:20px;
     padding: 20px;
-    
-
 }
+
+@media only screen and (max-width: 1090px) {
+    .bg-image{
+        height: auto;
+    }
+  }
