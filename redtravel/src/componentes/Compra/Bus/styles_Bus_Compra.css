@@ -1,4 +1,23 @@
+.cont-bus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cont-bus h2{
+    margin: 0px;
+  }
+.cont-bus p{
+    width: 150px;    
+    margin: 0px;
+    border: 1px solid;
+    background-color: chocolate;
+  }
+
 .cont-asiento{
+    margin-top: 0px;
     display: flex;
     flex-direction:row; 
     justify-content: center;
@@ -6,15 +25,19 @@
     align-items: center;
 }
 
+.cont-pasaje{
+    height: 20px;
+}
+
 .bto_asiento{
-    width: 75px;
+    width: 50px;
     height: 35px;
     margin-left: 5px;
     margin-bottom: 5px;
 }
 
 .bto_asiento_ocupado{
-    width: 75px;
+    width: 50px;
     height: 35px;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -22,5 +45,35 @@
 }
 
 .imgBus{
-    height: 200px;
+    height: 300px;
+    width: 100px;
+}
+
+/* ************* */
+
+@media  only screen and (max-width:768px) {
+    .cont-pasaje{
+        height: 10px;
+    }
+
+    .bto_asiento{
+        width: 35px;
+        height: 35px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .bto_asiento_ocupado{
+        width: 35px;
+        height: 35px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        background-color: chocolate;
+    }
+    
+    .imgBus{
+        height: 275px;
+        width: 60px;
+    }
+    
 }

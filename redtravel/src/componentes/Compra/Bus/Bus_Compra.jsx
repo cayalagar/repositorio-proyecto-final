@@ -4,8 +4,8 @@ import React from "react";
 
 import "./styles_Bus_Compra.css";
 
-import BusFrente from "../../../assets/imagenes/bus/bus_toma_aeria_frente.jpg"
-import BusAtras from "../../../assets/imagenes/bus/bus_toma_aeria_atras.jpg"
+import BusFrente from "../../../assets/images/bus/bus_toma_aeria_frente.jpg"
+import BusAtras from "../../../assets/images/bus/bus_toma_aeria_atras.jpg"
 
 const jsonAsientos = {
     asientos: [
@@ -84,35 +84,42 @@ const jsonAsientos = {
 
 const BusAsientos = () => {
     return (
-        <div className="cont-asiento">
-            <img src={BusFrente} className="imgBus" />
-            <form>
-                <div className="cont-columna">
-                    <input type="submit" className="bto_asiento_ocupado" value="01" />
-                    <input type="submit" className="bto_asiento" value="05" />
-                    <input type="submit" className="bto_asiento" value="09" />
-                    <input type="submit" className="bto_asiento_ocupado" value="13" />
-                </div>
-                <div className="cont-columna">
-                    <input type="submit" className="bto_asiento_ocupado" value="02" />
-                    <input type="submit" className="bto_asiento_ocupado" value="06" />
-                    <input type="submit" className="bto_asiento" value="10" />
-                    <input type="submit" className="bto_asiento_ocupado" value="14" />
-                </div>
-                <div className="cont-columna">
-                    <input type="submit" className="bto_asiento" value="03" />
-                    <input type="submit" className="bto_asiento" value="07" />
-                    <input type="submit" className="bto_asiento" value="11" />
-                    <input type="submit" className="bto_asiento" value="15" />
-                </div>
-                <div className="cont-columna">
-                    <input type="submit" className="bto_asiento_ocupado" value="04" />
-                    <input type="submit" className="bto_asiento_ocupado" value="08" />
-                    <input type="submit" className="bto_asiento" value="12" />
-                    <input type="submit" className="bto_asiento" value="16" />
-                </div>
-            </form>
-            <img src={BusAtras} className="imgBus"/>
+        <div className="cont-bus">
+            <h2>Selecciona tu asiento's</h2>
+            <p>Asientos Ocupados</p>
+            <div className="cont-asiento">
+                <img src={BusFrente} className="imgBus" />
+                <form>
+                    <div className="cont-columna">
+                        <input type="submit" className="bto_asiento_ocupado" value="01" />
+                        <input type="submit" className="bto_asiento" value="05" />
+                        <input type="submit" className="bto_asiento" value="09" />
+                        <input type="submit" className="bto_asiento_ocupado" value="13" />
+                    </div>
+                    <div className="cont-columna">
+                        <input type="submit" className="bto_asiento_ocupado" value="02" />
+                        <input type="submit" className="bto_asiento_ocupado" value="06" />
+                        <input type="submit" className="bto_asiento" value="10" />
+                        <input type="submit" className="bto_asiento_ocupado" value="14" />
+                    </div>
+
+                    <div className="cont-pasaje"></div>
+
+                    <div className="cont-columna">
+                        <input type="submit" className="bto_asiento" value="03" />
+                        <input type="submit" className="bto_asiento" value="07" />
+                        <input type="submit" className="bto_asiento" value="11" />
+                        <input type="submit" className="bto_asiento" value="15" />
+                    </div>
+                    <div className="cont-columna">
+                        <input type="submit" className="bto_asiento_ocupado" value="04" />
+                        <input type="submit" className="bto_asiento_ocupado" value="08" />
+                        <input type="submit" className="bto_asiento" value="12" />
+                        <input type="submit" className="bto_asiento" value="16" />
+                    </div>
+                </form>
+                <img src={BusAtras} className="imgBus"/>
+            </div>
         </div>
     );
 };

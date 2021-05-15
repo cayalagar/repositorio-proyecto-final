@@ -71,7 +71,6 @@ const Compra = () => {
         <TabsCompra />
       </div>
       <div className="contenedor_asientos">
-        <h2>Selecciona tu asiento's</h2>
         <BusAsientos />
       </div>
     </div>
