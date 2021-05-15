@@ -12,6 +12,8 @@
     padding-left: 3%;
     display: flex;
     flex-direction: row;
+    margin-right: 40%;
+    justify-content: center;
 }
 .datos{
     display: inline-flex;
@@ -38,7 +40,7 @@
     
 }
 .informacion2{
-    width:110%;
+    width:1200%;
     height: 30px;
     border-radius: 5px;
 }
@@ -50,10 +52,12 @@
 
 @media only screen and (max-width: 1090px) {
     .datos{
+
         display: contents;
     }
     .consulta1{
         font-size: large;
+        margin-right: auto;
     }
   }
 
